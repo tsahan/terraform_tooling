@@ -1,0 +1,30 @@
+{
+  "name": "Terraform Tools",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "containerUser": "vscode",
+  "features": {
+    "azure-cli": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker": {
+      "version": "latest",
+      "moby": "false"
+    },
+    "ghcr.io/devcontainers/features/terraform:latest": {
+      "version": "latest",
+      "tflint": "latest",
+      "installTFsec": "true",
+      "installTerraformDocs": "true"
+    }
+  },
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "hashicorp.terraform",
+        "ms-azuretools.vscode-azureterraform"
+      ]
+    }
+  }
+}
