@@ -22,6 +22,8 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
+        "ms-vscode.azurecli",
+        "ms-azuretools.vscode-docker",
         "hashicorp.terraform",
         "ms-azuretools.vscode-azureterraform"
       ]
