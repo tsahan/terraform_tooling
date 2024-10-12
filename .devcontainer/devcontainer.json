@@ -6,10 +6,6 @@
     "azure-cli": {
       "version": "latest"
     },
-    "ghcr.io/devcontainers/features/docker-in-docker": {
-      "version": "latest",
-      "moby": "false"
-    },
     "ghcr.io/devcontainers/features/terraform:latest": {
       "version": "latest",
       "tflint": "latest",
@@ -24,7 +20,6 @@
       "extensions": [
         "ms-vscode.vscode-node-azure-pack",
         "ms-vscode.azurecli",
-        "ms-azuretools.vscode-docker",
         "hashicorp.terraform",
         "ms-azuretools.vscode-azureterraform"
       ]
